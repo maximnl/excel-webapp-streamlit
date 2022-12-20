@@ -29,7 +29,7 @@ ages = df['Age'].unique().tolist()
 age_selection = st.slider('Age:',
                         min_value= min(ages),
                         max_value= max(ages),
-                        value=(min(ages),max(ages)))
+                       value=(min(ages),max(ages)))
 
 department_selection = st.multiselect('Department:',
                                     department,
